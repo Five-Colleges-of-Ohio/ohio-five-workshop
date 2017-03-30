@@ -2,6 +2,14 @@
 
 GitHub and Git are great, but sometimes things go wrong. Here are solutions to some common problems with git.
 
+# Web Browser Specific
+
+* It won't let me edit files
+
+* It won't let me upload files
+
+* My page is not rendering at github-organization.github.io
+
 
 ## Command Line Specific
 
@@ -36,6 +44,50 @@ CONFLICT (content): Merge conflict in github-troubleshooting.md
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-They look like this:
+To get a list of merge conflicted styles, run git status:
+
+```
+$ git status
+```
+
+Merge conflicts in a particular file look like this:
 
 ![merge conflict](images/merge-conflict.png)
+
+A merge conflict is flagged on either side by <<<<<<< followed by HEAD and >>>>>>>> followed by a long hash key that identifies a change you've made. They're divided in the middle by a series of equals signs - ======. So you can easily find them in the project as a whole by doing a "search all files" for "<<<<<." In sublime text, that is command + shift + f. This will give you a list of to do's.
+
+From there, the first half of the commit shows you the changes made to those lines in the remote repository - so these are the changes that you did not have on your computer when you committed. The second half below the equals signs signfiy the changes that were on your computer. So to correct the merge conflict, you'll want to edit the text to resolve the two distinct versions into one. And then drop all of the <<<<<< HEAD and >>>>>> aa5733… bits (those are just to help you make sense of the conflict, and you don't want those in the final version). So here, an unconflicted version might look like:
+
+```
+Don't be worried. I made some changes online, but no conflict.
+```
+Then go through the normal git workflow to add, commit, and push your files.
+
+```
+$ git add .
+$ git commit -m 'a message describing what you did'
+$ git push
+```
+
+* My pushes to GitHub fail, but I've pulled and things are up to date.
+First, check to make sure that you have the correct remote listed so that GitHub knows where to be pushing:
+
+```
+$ git remote -v
+```
+This should give you some flavor of:
+```
+origin	git@github.com:walshbr/ohio-five-workshop.git (fetch)
+origin	git@github.com:walshbr/ohio-five-workshop.git (push)
+```
+Where the second bit - git@github.com… - should match the clone/download URL taken from the right side of the main page of your repository. Clicking on the big green button should make something like this come up:
+
+![clone url example](images/clone-url.png)
+
+If it doesn't match, you'll need to add a pointer to the repository so your computer knows where to send code:
+
+```
+$ git remote add origin YOUR-CLONE-URL-HERE
+```
+
+Then you should be able to push as normal.
