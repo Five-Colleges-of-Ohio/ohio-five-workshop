@@ -29,6 +29,13 @@ $ git push
 
 * Merge conflicts were detected!
 
-DON'T PANIC. Git relies on changes on a line-by-line basis. If you change a line and commit those changes before pulling, there is a chance that you might have changed the same line as someone else in a different way. Git wants to make sure that it knows what changes it should keep as part of the permanent record, so it flags any spots where things have been changed in different ways. They look like this:
+DON'T PANIC. Git relies on changes on a line-by-line basis. If you change a line and commit those changes before pulling, there is a chance that you might have changed the same line as someone else in a different way. Git wants to make sure that it knows what changes it should keep as part of the permanent record, so it flags any spots where things have been changed in different ways. You can tell that you have merge conflicts by getting an error message like this:
 
-Don't be worried. To read the message, you will do this. (these changes not made online)
+```
+CONFLICT (content): Merge conflict in github-troubleshooting.md
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+They look like this:
+
+![merge conflict](images/merge-conflict.png)
