@@ -1,6 +1,6 @@
 # Git / GitHub Troubleshooting
 
-GitHub and Git are great, but sometimes things go wrong. Here are solutions to some common problems with git.
+GitHub and Git are great, but sometimes things go wrong. Here are solutions to some common problems with both.
 
 ## Web Browser Specific
 
