@@ -6,6 +6,9 @@ GitHub and Git are great, but sometimes things go wrong. Here are solutions to s
 
 ### It won't let me edit files
 
+* Are you logged in?
+* Have you been added as a contributor to the repository? The owner of the repository will have to do this for you (see "My pushes to GitHub fail" below for screenshots to this effect).
+
 ### It won't let me upload files
 
 It appears as though, by default, a GitHub repository has to have a file in it already in order for you to be able to edit or upload files. So when creating a new repository that you're intending to edit from the browser, I usually check the box for "initialize this repository with a readme" to force this behavior. You can always add a readme if you didn't do this by clicking on the "readme" link from the repository homepage.
