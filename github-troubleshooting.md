@@ -20,7 +20,7 @@ It appears as though, by default, a GitHub repository has to have a file in it a
 
 Once you have an index.html file in the root of your repository, you should be able to see several configuration options for the way GitHub pages is serving your repository:
 
-![github pages settings](github-pages.png)
+![github pages settings](images/github-pages.png)
 
 ## Command Line Specific
 
