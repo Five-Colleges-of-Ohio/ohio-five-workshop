@@ -130,4 +130,4 @@ Does your terminal look kind of like this?
 
 ![quote escaping](images/quote-escaping.png)
 
-If you start your message with a single quote, the terminal will assume that it ends with the next single quote it sees. So if you use a contraction (or any other single quote, it will get confused). For this reason, it might be easier
+If you start your message with a single quote, the terminal will assume that it ends with the next single quote it sees. So if you use a contraction (or any other single quote, it will get confused). For this reason, it might be easier to use double quotes. The easiest thing to do here is hit ctrl + c to exit this particular commit and then retype it.
