@@ -2,10 +2,10 @@
 
 1. Sign up for a GitHub account:
 
-* Visit github.org and sign up for your own account.
-* Avoid capital letters, numbers, punctuation if possible. You might still be able to use them, but why play with fate like that?
-* Pick a name that is good for a professional audience
-* It's hard (but impossible) to change your name, so put some thought into it.
+	* Visit github.org and sign up for your own account.
+	* Avoid capital letters, numbers, punctuation if possible. You might still be able to use them, but why play with fate like that?
+	* Pick a name that is good for a professional audience
+	* It's hard (but impossible) to change your name, so put some thought into it.
 
 2. Set up team pages.
 	* Break into teams
@@ -26,6 +26,7 @@
 	* Make the text of it "Make an index.html page."
 4. Make an index.html page
 	* one member should add a file called "index.html"
+	* you should add an html skeleton here - http://htmlshell.com/ 
 	Review GitHub Pages and get that set up.
 
 4. Adding code. 
