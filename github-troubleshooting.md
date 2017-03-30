@@ -98,7 +98,7 @@ If not, check to make sure you're a contributor to the repository/organization. 
 
 Or, if you're working with a GitHub organization you can add a member to the organization from the people page of the organization:
 
-![adding a person to an organization](images/add-person-to-organzation.png)
+![adding a person to an organization](images/add-person-to-organization.png)
 
 Then, you can assign default permissions for everyone in the organization from the settings page of the organization:
 
