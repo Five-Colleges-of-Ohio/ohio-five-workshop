@@ -25,8 +25,9 @@
 	* Assign that issue to a team member.
 	* Make the text of it "Make an index.html page."
 4. Make an index.html page
-	* one member should add a file called "index.html"
-	* you should add an html skeleton here - http://htmlshell.com/ 
+	* One member should add a file called "index.html"
+	* You should add the html skeleton here to the file - http://htmlshell.com/ 
+	* Give a commit message at the bottom.
 	Review GitHub Pages and get that set up.
 
 4. Adding code. 
