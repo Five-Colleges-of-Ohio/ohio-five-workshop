@@ -123,3 +123,11 @@ If you have a proper git remote and write permissions to the repository, you mig
 1. [Checking for existing SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 2. [Generating a new SSH key and adding it to the SSH agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 3. [Adding a new SSH key to your GitHub Account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
+### I tried to commit, but now it is giving me an arrow and not responding to my command.
+
+Does your terminal look kind of like this?
+
+![quote escaping](images/quote-escaping.png)
+
+If you start your message with a single quote, the terminal will assume that it ends with the next single quote it sees. So if you use a contraction (or any other single quote, it will get confused). For this reason, it might be easier
