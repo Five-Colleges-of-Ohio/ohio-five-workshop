@@ -31,3 +31,4 @@ $ git push
 
 DON'T PANIC. Git relies on changes on a line-by-line basis. If you change a line and commit those changes before pulling, there is a chance that you might have changed the same line as someone else in a different way. Git wants to make sure that it knows what changes it should keep as part of the permanent record, so it flags any spots where things have been changed in different ways. They look like this:
 
+Look I made some changes online here! it's going to make a conflict.
