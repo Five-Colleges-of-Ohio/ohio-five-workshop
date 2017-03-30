@@ -2,18 +2,24 @@
 
 GitHub and Git are great, but sometimes things go wrong. Here are solutions to some common problems with git.
 
-# Web Browser Specific
+## Web Browser Specific
 
-* It won't let me edit files
+### It won't let me edit files
 
-* It won't let me upload files
+### It won't let me upload files
 
-* My page is not rendering at github-organization.github.io
+It appears as though, by default, a GitHub repository has to have a file in it already in order for you to be able to edit or upload files. So when creating a new repository that you're intending to edit from the browser, I usually check the box for "initialize this repository with a readme" to force this behavior.
 
+### My page is not rendering at github-organization.github.io
+
+* Your username should be all lowercase, have no spaces, and have no puncutation. I'd also shy away from numbers, but that's just me.
+* You must have an index.html file in the root of your repository for your project to have a main page.
+* These files must be on the master branch.
+8 They might take a few moments to render.
 
 ## Command Line Specific
 
-* Help what is this screen? / Help my computer won't let me type!
+### Help what is this screen? / Help my computer won't let me type!
 
 Git assumes that you give a message describing every change you have made, so much so that, if you don't give a message, it will ask you to write one. So if you haven't given a commit message (sometimes can happen when pulling changes as well), you might get a screen like this:
 
@@ -26,7 +32,7 @@ What's happened here is your terminal has turned into a text editor, politely as
 ```
 That tells Vim to exit the current screen without saving anything.
 
-* It won't let me push / it says some refs were rejected
+### It won't let me push / it says some refs were rejected
 
 You have to make sure that your copy of the repository is up to date before you can contribute changes. Otherwise you might overwrite work that someone else had done. Pull before you push - update before you send out new contributions:
 
@@ -35,7 +41,7 @@ $ git pull
 $ git push
 ```
 
-* Merge conflicts were detected!
+### Merge conflicts were detected!
 
 DON'T PANIC. Git relies on changes on a line-by-line basis. If you change a line and commit those changes before pulling, there is a chance that you might have changed the same line as someone else in a different way. Git wants to make sure that it knows what changes it should keep as part of the permanent record, so it flags any spots where things have been changed in different ways. You can tell that you have merge conflicts by getting an error message like this:
 
@@ -54,7 +60,7 @@ Merge conflicts in a particular file look like this:
 
 ![merge conflict](images/merge-conflict.png)
 
-A merge conflict is flagged on either side by <<<<<<< followed by HEAD and >>>>>>>> followed by a long hash key that identifies a change you've made. They're divided in the middle by a series of equals signs - ======. So you can easily find them in the project as a whole by doing a "search all files" for "<<<<<." In sublime text, that is command + shift + f. This will give you a list of to do's.
+Where "They look like this" is _not_ part of the conflict. A merge conflict is flagged on either side by <<<<<<< followed by HEAD and >>>>>>>> followed by a long hash key that identifies a change you've made. They're divided in the middle by a series of equals signs - ======. So you can easily find them in the project as a whole by doing a "search all files" for "<<<<<." In sublime text, that is command + shift + f. This will give you a list of to do's.
 
 From there, the first half of the commit shows you the changes made to those lines in the remote repository - so these are the changes that you did not have on your computer when you committed. The second half below the equals signs signfiy the changes that were on your computer. So to correct the merge conflict, you'll want to edit the text to resolve the two distinct versions into one. And then drop all of the <<<<<< HEAD and >>>>>> aa5733… bits (those are just to help you make sense of the conflict, and you don't want those in the final version). So here, an unconflicted version might look like:
 
@@ -69,7 +75,7 @@ $ git commit -m 'a message describing what you did'
 $ git push
 ```
 
-* My pushes to GitHub fail, but I've pulled and things are up to date.
+### My pushes to GitHub fail, but I've pulled and things are up to date.
 First, check to make sure that you have the correct remote listed so that GitHub knows where to be pushing:
 
 ```
