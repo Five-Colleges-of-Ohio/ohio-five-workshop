@@ -90,4 +90,18 @@ If it doesn't match, you'll need to add a pointer to the repository so your comp
 $ git remote add origin YOUR-CLONE-URL-HERE
 ```
 
-Then you should be able to push as normal.
+Then you should be able to push as normal. If you already have the remote added and things are still not working.
+
+If not, check to make sure you're a contributor to the repository/organization. You'll need the owner of the repository to add you:
+
+![add contributor from setings page](images/add-contributor.png)
+
+Or, if you're working with a GitHub organization you can add a member to the organization from the people page of the organization:
+
+![adding a person to an organization](images/add-person-to-organzation.png)
+
+Then, you can assign default permissions for everyone in the organization from the settings page of the organization:
+
+![change permissions to an organization](images/change-permissions-org.png)
+
+Do you have an ssh key added to your github account?
