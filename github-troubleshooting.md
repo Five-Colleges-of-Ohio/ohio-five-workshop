@@ -8,14 +8,19 @@ GitHub and Git are great, but sometimes things go wrong. Here are solutions to s
 
 ### It won't let me upload files
 
-It appears as though, by default, a GitHub repository has to have a file in it already in order for you to be able to edit or upload files. So when creating a new repository that you're intending to edit from the browser, I usually check the box for "initialize this repository with a readme" to force this behavior.
+It appears as though, by default, a GitHub repository has to have a file in it already in order for you to be able to edit or upload files. So when creating a new repository that you're intending to edit from the browser, I usually check the box for "initialize this repository with a readme" to force this behavior. You can always add a readme if you didn't do this by clicking on the "readme" link from the repository homepage.
 
 ### My page is not rendering at github-organization.github.io
 
+* Does your username match the name of the repository but with 'github.io' added? Ie. for a username of walshbr my repository should be walshbr.github.io. For an organization named awesomeprogramming the repository and domain would both be awesomeprogramming.github.io
 * Your username should be all lowercase, have no spaces, and have no puncutation. I'd also shy away from numbers, but that's just me.
 * You must have an index.html file in the root of your repository for your project to have a main page.
 * These files must be on the master branch.
-8 They might take a few moments to render.
+* They might take a few moments to render.
+
+Once you have an index.html file in the root of your repository, you should be able to see several configuration options for the way GitHub pages is serving your repository:
+
+![github pages settings](github-pages.png)
 
 ## Command Line Specific
 
