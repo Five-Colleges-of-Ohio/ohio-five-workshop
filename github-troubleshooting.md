@@ -100,8 +100,12 @@ Or, if you're working with a GitHub organization you can add a member to the org
 
 ![adding a person to an organization](images/add-person-to-organization.png)
 
-Then, you can assign default permissions for everyone in the organization from the settings page of the organization:
+Then, you can assign default permissions to "write" for everyone in the organization from the settings page of the organization:
 
 ![change permissions to an organization](images/change-permissions-org.png)
 
-Do you have an ssh key added to your github account?
+If you have a proper git remote and write permissions to the repository, you might need to attach an ssh key to your github credentials. GitHub has good tutorials for this that should be followed in this order: 
+
+1. [Checking for existing SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+2. [Generating a new SSH key and adding it to the SSH agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+3. [Adding a new SSH key to your GitHub Account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
