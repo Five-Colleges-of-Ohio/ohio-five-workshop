@@ -56,3 +56,14 @@
 		* git commit -m 'a message describing what i did'
 		* git push
 	* With this workflow you all have the materials working on your own computer at all times.
+
+10. Other options for presentation
+	* Markdown files like this one, stored in GitHub repo
+	* Pros
+		* No need to mess with HTML/CSS
+		* Code can exist alongside your data
+		* Can easily publish findings
+	* Cons
+		* Will exist in the GitHub interface
+		* Not entirely your own
+		* More data-oriented, not really designed for presentation
