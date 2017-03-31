@@ -1,6 +1,6 @@
 # Ohio 5 GitHub / Git Tutorial
 
-Pre:
+1. Pre:
 	* What it is - distributed version control system, social code sharing, project management platform.
 	* How it works - MAGIC. But actually it tracks line-by-line changes to sets of files as well as who made them, when they were made, and other relevant metadata.
 	* Why you might want to do it - professional portfolio, hosting, open source community
