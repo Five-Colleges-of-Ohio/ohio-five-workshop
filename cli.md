@@ -2,12 +2,12 @@
 
 *Note: this assumes that you are working on a Mac OS or with Git Bash on a Windows machine.*
 
-![rules of programming](img/1.png)
+![rules of programming](images/cli/1.png)
 
 * First rule of programming - try to think through what's going on.
 * Second rule of programming - ask questions when you don't understand.
 
-![finder/gui](img/2.png)
+![finder/gui](images/cli/2.png)
 
 There are two ways of interacting with the computer. One is what we're used to doing - we take a mouse and click around. It's primarily image based. It's called the Graphical User Interface or GUI. The GUI is based around images and interacting with them.
 
@@ -15,7 +15,7 @@ But there's a much older way that uses only text to interact with the computer. 
 
 You should get something looking like this – 
 
-![terminal](img/3.png)
+![terminal](images/cli/3.png)
 
 You'll see a window with a prompt for you to enter commands. Accordingly, we call this a command prompt or the command line. You might see something similar in any movie that has someone hacking away at a computer as a timer runs down.
 
@@ -25,11 +25,11 @@ And it also feels fun. You're a hacker! Woo hoo!
 
 My terminal looks a tad different from yours because I've customized it to give me more information. It's a little easier to look at, it tells me what folder I'm in, etc.
 
-![commands in terminal](img/4.png)
+![commands in terminal](images/cli/4.png)
 
 Here is how it works. You’ll be typing things in using this format. You tell the computer what to do and how to do it. Don’t worry about the dollar sign here – that’s just one of the ways that documentation tells us what to type in the terminal as opposed to what is part of the narrative of the guide. So if you see a dollar sign, you only type what is after that dollar sign into the terminal. 
 
-![commands we'll cover](img/5.png)
+![commands we'll cover](images/cli/5.png)
 
 Here are the commands you’ll be using today. You can do LOTS with just this short list. We’ll learn through repetition.
 
@@ -158,4 +158,4 @@ The world is your oyster. So make sure you don't explode the oyster.
 
 ## Cheatsheet for commands covered here
 
-![cheatsheet](img/6.png)
+![cheatsheet](images/cli/6.png)
