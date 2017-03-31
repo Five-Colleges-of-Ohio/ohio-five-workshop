@@ -1,8 +1,8 @@
 # Ohio 5 GitHub / Git Tutorial
 
 Pre:
-	* What it is - distributed version control system, social code sharing
-	* How it works
+	* What it is - distributed version control system, social code sharing, project management platform.
+	* How it works - MAGIC. But actually it tracks line-by-line changes to sets of files as well as who made them, when they were made, and other relevant metadata.
 	* Why you might want to do it - professional portfolio, hosting, open source community
 
 1. Sign up for a GitHub account:
@@ -24,8 +24,10 @@ Pre:
 	Ie. for an organization called awesomeohio your repository would be awesomeohio.github.io. 
 	* Check the box to initialize your project with a readme.
 	* Make your repository public.
+	Repositories consist of all the files and folders pertaining to a particular project, but they also contain all of the information that the project's team needs to work together. So a Git repository stores all changes made by anyone ever, allows 
 
 3. GitHub Issues page.
+	Useful for tracking a project's history and managing its future.
 	* Make an issue
 	* Assign that issue to a team member.
 	* Make the text of it "Make an index.html page."
