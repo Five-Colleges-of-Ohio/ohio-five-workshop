@@ -1,5 +1,10 @@
 # Ohio 5 GitHub / Git Tutorial
 
+Pre:
+	* What it is - distributed version control system, social code sharing
+	* How it works
+	* Why you might want to do it - professional portfolio, hosting, open source community
+
 1. Sign up for a GitHub account:
 
 	* Visit github.org and sign up for your own account.
@@ -24,11 +29,28 @@
 	* Make an issue
 	* Assign that issue to a team member.
 	* Make the text of it "Make an index.html page."
+
 4. Make an index.html page
 	* One member should add a file called "index.html"
 	* You should add the html skeleton here to the file - http://htmlshell.com/ 
-	* Give a commit message at the bottom.
-	Review GitHub Pages and get that set up.
+	* Give a commit message at the bottom that says "closes #1".
+	* Notice how your issue is closed - commit messages are linked to the issue tracker.
 
-4. Adding code. 
-3. Tour of Issue tracker
+5. GitHub pages
+	* Visit yourorganization.github.io in the browser
+	* You should have a little thing there based on the HTML skeleton
+	* Explain how GitHub pages works
+
+6. Adding code
+	* Can continue to do this in the browser, but it's a little irritating.
+	* After all, how do you know no one else is editing your code at the same time?
+
+7. Working from the command line. (might be saved for later)
+	* First copy/clone
+	* Now you have your own version.
+	* Workflow:
+		* git pull
+		* git add . or git add filename
+		* git commit -m 'a message describing what i did'
+		* git push
+	* With this workflow you all have the materials working on your own computer at all times.
