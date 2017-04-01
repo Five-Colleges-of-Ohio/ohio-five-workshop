@@ -8,7 +8,7 @@
 
 2. Sign up for a GitHub account:
 
-	* Visit github.org and sign up for your own account.
+	* Visit github.com and sign up for your own account.
 	* Avoid capital letters, numbers, punctuation if possible. You might still be able to use them, but why play with fate like that?
 	* Pick a name that is good for a professional audience
 	* It's hard (but impossible) to change your name, so put some thought into it.
