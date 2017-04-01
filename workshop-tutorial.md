@@ -68,4 +68,9 @@
 		* Not entirely your own
 		* More data-oriented, not really designed for presentation
 
-11. Exercise
+11. Exercises
+	* Set up your own organization with added members that successfully loads on a GitHub pages domain.
+	* Clone this repository to your own computer.
+	* Make a contribution to it by signing the roster.
+	* Open the sandbox file and try to make more complicated changes by changing what other people have written.
+	* With a partner, try to trade changes to a file. Try to change the same line to produce merge conflicts. Then iron them out together.
