@@ -27,7 +27,7 @@
 	Ie. for an organization called awesomeohio your repository would be awesomeohio.github.io. 
 	* Check the box to initialize your project with a readme.
 	* Make your repository public.
-	Repositories consist of all the files and folders pertaining to a particular project, but they also contain all of the information that the project's team needs to work together. So a Git repository stores all changes made by anyone ever, allows 
+	Repositories consist of all the files and folders pertaining to a particular project, but they also contain all of the information that the project's team needs to work together. So a Git repository stores all changes made by anyone ever, allows you to manage your work, etc.
 
 5. GitHub Issues page.
 
